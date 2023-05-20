@@ -7,5 +7,7 @@ class Customer
      end
  end
 
-cust1 = Customer.new
-cust2 = Customer.new
+ cust1 = Customer.new("1", "John", "Wisdom Apartments, Ludhiya")
+ cust2 = Customer.new("2", "Poul", "New Empire road, Khandala")
+
+ puts cust1.initialize
