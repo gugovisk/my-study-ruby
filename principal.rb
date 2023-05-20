@@ -15,7 +15,7 @@ p conta_gian.saldo
 
 begin
     conta_gusta.transferir(conta_gian, 60) #falhar
-rescue StandartError => meu_erro
+rescue StandardError => meu_erro
     p "Não foi possível transferir: #{meu_erro.message} "
 end
 

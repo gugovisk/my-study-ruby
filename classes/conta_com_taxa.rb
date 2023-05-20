@@ -1,6 +1,7 @@
 class ContaComTaxa < ContaBancaria
     def transferir(outra_conta, valor)
         super
-        debitar(2)
+        taxa_de_saque = 2
+        debitar(taxa_de_saque)
     end
 end
